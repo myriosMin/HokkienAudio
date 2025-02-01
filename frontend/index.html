@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hokkien Speech Recorder</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Hokkien Speech Collection</h1>
+
+        <!-- Progress Bar -->
+        <div class="progress-container">
+            <div class="progress-bar" id="progressBar"></div>
+        </div>
+
+        <!-- Checkpoint Message -->
+        <div id="checkpointMessage" class="checkpoint-message" style="display: none;">
+            🎉 Checkpoint Reached! Keep Going! 🎉
+        </div>
+
+        <!-- Phrase Display -->
+        <div id="phrase-card" class="phrase-card">
+            <div id="phrase" class="phrase">Loading...</div>
+        </div>
+
+        <!-- Recording Controls -->
+        <div class="buttons">
+            <button id="recordBtn" class="circle-btn">
+                <i class="mic-icon">🎙</i>
+                <div class="wave"></div>
+            </button>
+            <button id="skipBtn" class="circle-btn skip">⏭</button>
+        </div>
+
+        <!-- Recording Page -->
+        <a href="recordings.html" class="view-recordings-btn">🎵 View Recordings</a>
+
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
