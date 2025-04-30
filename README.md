@@ -123,6 +123,7 @@ Then restart the server.
 ---
 
 ## **🔗 Contributors & Contact**
-👤 Developed by **Min Phyo Thura**  
+[Year 2, AI Engineering Project, Diploma in AI & Data Engineering, Nanyang Polytechnic]
+👤 Developed by [**Min Phyo Thura**](https://github.com/myriosMin)    
 📧 Contact: [myriosmin@gmail.com](mailto:myriosmin@example.com)  
 🌍 GitHub Repo: [HokkienAudio](https://github.com/myriosMin/HokkienAudio)  
